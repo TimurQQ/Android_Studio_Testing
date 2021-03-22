@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     int b = 20;
     int c = 0;
     boolean d = true;
+
     boolean e = false;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
