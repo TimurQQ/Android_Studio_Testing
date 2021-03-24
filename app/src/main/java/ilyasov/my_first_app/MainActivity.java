@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 import java.util.Random;
 
@@ -112,6 +113,24 @@ public class MainActivity extends AppCompatActivity {
                 season = "Не знаю";
                 break;
         }
+        //Circles
+        for (int i = 0; i< 10; ++i) {
+            Log.d("FOR", Integer.toString(i));
+        }
+        int i = 0;
+        while(i < 10) {
+            Log.d("WHILE", Integer.toString(i));
+            ++i;
+        }
+        int[] a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (int j : a) {
+            Log.d("FOR_EACH", Integer.toString(j));
+        }
+        i = 0;
+        do {
+            Log.d("DO_WHILE", Integer.toString(i));
+            ++i;
+        } while(i < 10);
         // Конецц
     }
 }
